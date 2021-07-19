@@ -75,16 +75,24 @@ img {
 @media screen and (max-width:419px) {
   #lezioni .row{
     width: 100%;
+    margin: 0;
   }
-  #steps.row{
+  #steps.container >.row{
     width: 100%;
+    margin: 0;
   }
   #lezioni.container,
   #why.container{
     background-color: rgb(235, 253, 191);
     padding: 10px;
   }
+  #steps.container{
+    padding: 10px;
+  }
   #lezioni .row img{
+    height: 100px;
+  }
+  #steps .row img{
     height: 100px;
   }
   body>#lezioni.container>.row>.left,
